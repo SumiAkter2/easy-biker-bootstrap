@@ -22,4 +22,21 @@
 .banner-text{
     width: 600px;
     padding-top: 200px;
+    padding-left: 100px;
+}
+.bike-collect p{
+color: #e76f51;
+}
+
+.bike-collect-divider{
+    border-bottom: 2px solid #e76f51;
+    width: 80px;
+    margin:  0 auto;
+}
+
+@media screen  and (max-width:560px){
+    .banner-text{
+        width: 100%;
+        padding-left: 30px;
+    }
 }
